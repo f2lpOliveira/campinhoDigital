@@ -6,7 +6,7 @@ a senha seja válida ou "Acesso negado!" caso a senha seja inválida. */
 
 const rs = require("readline-sync");
 const access = rs.questionInt("Digite a senha de quatro números: ");
-const password = 1234
+const password = 1234;
 
 if (access === password) {
 	console.log("Acesso permitido!");
